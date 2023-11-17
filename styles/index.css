@@ -1,0 +1,48 @@
+main {
+  height: 100% !important;
+}
+
+nav {
+  background-color: var(--primaria);
+}
+
+nav .brand, h1 {
+  font-family: "Rowdies", sans-serif;
+}
+
+#inicio p {
+  font-family: "Roboto", sans-serif;
+}
+
+nav li, nav button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.smellbook .verao {
+  color: var(--verao);
+}
+
+.smellbook .inverno {
+  color: var(--inverno);
+}
+
+.smellbook .outono {
+  color: var(--outono);
+}
+
+.smellbook .primavera {
+  color: var(--primavera);
+}
+
+.cadernetas {
+  width: 612px;
+}
+
+#sobre {
+  background-color: var(--primaria);
+}
