@@ -9,14 +9,15 @@
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
   <body>
-    <nav class="p-3 navbar navbar-expand-lg navbar-dark sticky-top">
+    <nav class="p-3 navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a class="brand fs-1 text-white" href="#">SMELLBOOK</a>
 
         <button
-          class="navbar-toggler"
+          class="navbar-toggler fw-semibold"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -27,14 +28,14 @@
           <span class="navbar-toggler-icon" />
         </button>
 
-        <ul class="h-100 fs-5 p-2 gap-4 text-black collapse navbar-collapse navbar-nav justify-content-end" id="navbarNav">
+        <ul class="h-100 fs-5 p-2 gap-4 text-black collapse navbar-collapse navbar-nav justify-content-end fw-semibold" id="navbarNav">
           <li class="navbar-item"><a href="#inicio">Home</a></li>
           <li class="navbar-item"><a href="#sobre">Sobre</a></li>
           <li class="navbar-item"><a href="#produtos">Produtos</a></li>
           <li class="navbar-item"><a href="#">Páginas</a></li>
           <li class="navbar-item"><a href="#contato">Contato</a></li>
           <li class="navbar-item">
-            <button type="button" class="btn btn-primary bg-black">Shop Now</button>
+            <button type="button" class="btn btn-primary bg-black fw-semibold">Shop Now</button>
           </li>
         </ul>
       </div>
@@ -57,7 +58,67 @@
         </div>
       </section>
 
-      <section class="h-100" id="sobre">
+      <section class="container-fluid text-white" id="sobre">
+        <div class="container-fluid">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8 col-12 colunaimg order-2 order-lg-1 my-auto d-sm-flex justify-content-sm-center justify-content-lg-start">
+              <img class="img-fluid rounded" src="img/integrantes-smellbook.png" alt="cadernetas" />
+            </div>
+
+            <div class="col-lg-4 col-12 col-4 container order-1 order-lg-2 mb-5">
+              <div class="d-flex justify-content-center">
+                <h2 class="fs-1 fw-semibold">Sobre nós</h2>
+              </div>
+              <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+          <div class="row g-3 cards">
+            <div class="col-lg-3 col-md-6">
+              <div class="card text-center py-2 h-100">
+                <div class="card-body">
+                  <span class="icone-caracteristica caracteristica-verao"><i class="fa-solid fa-sun"></i></span>
+                  <h3 class="card-title caracteristica-verao">Característica</h3>
+                  <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card text-center py-2 h-100">
+                <div class="card-body">
+                  <span class="icone-caracteristica caracteristica-outono"><i class="fa-solid fa-leaf"></i></span>
+                  <h3 class="card-title caracteristica-outono">Característica</h3>
+                  <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card text-center py-2 h-100">
+                <div class="card-body">
+                  <span class="icone-caracteristica caracteristica-primavera"><i class="fa-solid fa-seedling"></i></span>
+                  <h3 class="card-title caracteristica-primavera">Característica</h3>
+                  <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card text-center py-2 h-100">
+                <div class="card-body">
+                  <span class="icone-caracteristica caracteristica-inverno"><i class="fa-solid fa-wind"></i></span>
+                  <h3 class="card-title caracteristica-inverno">Característica</h3>
+                  <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>

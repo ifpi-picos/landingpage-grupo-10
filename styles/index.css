@@ -16,7 +16,6 @@ nav .brand, h1 {
 
 nav li, nav button {
   font-family: "Poppins", sans-serif;
-  font-weight: 600 !important;
 }
 
 .navbar-toggler {
@@ -45,4 +44,51 @@ nav li, nav button {
 
 #sobre {
   background-color: var(--primaria);
+}
+
+#sobre h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+#sobre .cards {
+  margin-top: 70px;
+}
+
+#sobre {
+  min-height: inherit;
+  padding: 80px;
+}
+
+#sobre .colunaimg {
+  position: relative;
+}
+
+#sobre .quadrado-branco {
+  position: absolute;
+  background-color: #ffffff;
+  left: -10%;
+  top: -10%;
+  width: 363px;
+  height: 344px;
+  z-index: 10;
+}
+
+.icone-caracteristica {
+  font-size: 72px;
+}
+
+.caracteristica-verao {
+  color: var(--verao);
+}
+
+.caracteristica-outono {
+  color: var(--outono);
+}
+
+.caracteristica-primavera {
+  color: var(--primavera);
+}
+
+.caracteristica-inverno {
+  color: var(--inverno);
 }
