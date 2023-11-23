@@ -92,3 +92,80 @@ nav li, nav button {
 .caracteristica-inverno {
   color: var(--inverno);
 }
+
+.tempo {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 350px;
+  margin-bottom: 40px;
+  
+}
+
+
+.verao1 {
+  color: yellow;
+  text-align: center;
+  border: 2px solid yellow;
+  width: 230px;
+  height: 285px;
+  margin-bottom: 40px;
+  margin-left: 1180px;
+  
+}
+.outono2 {
+  color: orange;
+  text-align: center;
+  border: 2px solid orange;
+  width: 235px;
+  height: 285px;
+  margin-bottom: 40px;
+}
+.primavera3 {
+  color: palevioletred;
+  text-align: center;
+  border: 2px solid palevioletred;
+  width: 230px;
+  height: 285px;
+  margin-bottom: 40px;
+
+}
+.inverno4 {
+  color: rgb(18, 18, 242);
+  text-align: center;
+  border: 2px solid rgb(18, 18, 242);
+  width: 230px;
+  height: 285px;
+  margin-bottom: 40px;
+  
+}
+
+.amarelo > img {
+  width: 200px;
+  height: 215px;
+}
+.laranja > img {
+  width: 200px;
+  height: 215px;
+}
+.rosa > img {
+  width: 200px;
+  height: 215px;
+}
+.azul > img {
+  width: 200px;
+  height: 215px;
+}
+
+#carouselExample {
+
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+
+ 
+}
+
+
+
