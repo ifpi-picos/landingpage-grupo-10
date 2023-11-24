@@ -217,3 +217,13 @@ nav li, nav button {
   margin-top:250px;
   width: 900px;
 }
+
+#text-titCar{
+font-size: medium;
+margin-bottom: 2%;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#text-sobre {
+  text-align: center;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
