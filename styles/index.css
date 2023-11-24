@@ -7,10 +7,12 @@ nav {
 }
 
 nav .brand, h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: "Rowdies", sans-serif;
 }
 
 #inicio p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: "Roboto", sans-serif;
 }
 
@@ -165,8 +167,8 @@ nav li, nav button {
   align-items: center;
   width: 200px;
   height: 200px;
-  
 }
+
 .carousel-container {
   max-width: 800px; /* Defina a largura máxima conforme necessário */
   margin: auto; /* Isso centralizará horizontalmente */
@@ -206,7 +208,7 @@ nav li, nav button {
 
 .carousel-control-next {
   top: 150px;
-  right: -40px;
+  right: -20px;
 }
 
 #caract-p {
