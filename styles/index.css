@@ -93,7 +93,7 @@ nav li, nav button {
   color: var(--inverno);
 }
 
-.tempo {
+.blocos-cadernetas {
   display: flex;
   justify-content: center;
   gap: 80px;
@@ -101,7 +101,6 @@ nav li, nav button {
   margin-bottom: 40px;
   
 }
-
 
 .verao1 {
   color: yellow;
@@ -157,14 +156,42 @@ nav li, nav button {
   height: 215px;
 }
 
-#carouselExample {
-
+#carousel .slide {
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
 
- 
+}
+.carousel-container {
+  max-width: 800px; /* Defina a largura máxima conforme necessário */
+  margin: auto; /* Isso centralizará horizontalmente */
+} 
+
+.Titulo-produtos {
+  text-align: center;
+}
+
+.paragrafo-produtos {
+  text-align: center;
+}
+#carouselExample {
+  background-color: black;
+  max-width: 1200px;/* Defina a largura máxima conforme necessário */
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center; 
+  width: 700px;
+  height: 200px;
+}
+.carousel-control-next-icon {
+  background-color: var(--primaria); /* Substitua pela cor desejada */
+}
+
+.carousel-control-prev-icon {
+  background-color: var(--primaria);
 }
 
 
