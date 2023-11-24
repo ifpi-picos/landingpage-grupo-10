@@ -170,6 +170,7 @@ nav li, nav button {
 
 .Titulo-produtos {
   text-align: center;
+  margin-top: 100px;
 }
 
 .paragrafo-produtos {
@@ -179,20 +180,26 @@ nav li, nav button {
   background-color: black;
   max-width: 1200px;/* Defina a largura máxima conforme necessário */
   margin: auto;
-  margin-top: 50px;
   margin-bottom: 100px;
   justify-content: center;
   align-items: center; 
-  width: 700px;
+  width: 800px;
   height: 200px;
 }
 .carousel-control-next-icon {
-  background-color: var(--primaria); /* Substitua pela cor desejada */
+  background-color: #c0c0c0; /* Substitua pela cor desejada */
 }
 
 .carousel-control-prev-icon {
-  background-color: var(--primaria);
+  background-color: #c0c0c0;
 }
 
+.carousel-control-prev {
+  top: 150px;
+  right: -40px;
+}
 
-
+.carousel-control-next {
+  top: 150px;
+  right: -40px;
+}
