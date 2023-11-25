@@ -25,6 +25,19 @@ nav li, nav button {
   border: none !important;
 }
 
+.navbar-item,
+.navbar-item > button {
+  transition: all 0.4s;
+}
+
+.navbar-item:hover {
+  color: #fff;
+}
+
+.navbar-item:hover > button {
+  color: var(--primaria);
+}
+
 .smellbook .verao {
   color: var(--verao);
 }
