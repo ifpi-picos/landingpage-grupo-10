@@ -26,7 +26,7 @@ nav li, nav button {
 }
 
 .navbar-item,
-.navbar-item > button {
+.navbar-item button {
   transition: all 0.4s;
 }
 
@@ -34,7 +34,7 @@ nav li, nav button {
   color: #fff;
 }
 
-.navbar-item:hover > button {
+.navbar-item:hover button {
   color: var(--primaria);
 }
 
@@ -197,9 +197,13 @@ nav li, nav button {
   margin: auto; /* Isso centralizará horizontalmente */
 } 
 
+
+#produtos {
+  padding-top: 100px;
+}
+
 .Titulo-produtos {
   text-align: center;
-  margin-top: 100px;
 }
 
 .paragrafo-produtos {

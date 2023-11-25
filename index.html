@@ -14,7 +14,7 @@
   <body>
     <nav class="p-3 navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="brand fs-1 text-white" href="#"><span class="smellbook"><span class="verao">SM</span><span class="outono">Ell</span><span class="primavera">BO</span><span class="inverno">OK</span></span></a>
+        <a class="brand fs-1 text-white" href="/"><span class="smellbook"><span class="verao">SM</span><span class="outono">Ell</span><span class="primavera">BO</span><span class="inverno">OK</span></span></a>
 
         <button
           class="navbar-toggler fw-semibold"
@@ -29,13 +29,14 @@
         </button>
 
         <ul class="h-100 fs-5 p-2 gap-4 text-black collapse navbar-collapse navbar-nav justify-content-end fw-semibold" id="navbarNav">
-          <li class="navbar-item"><a href="#inicio">Home</a></li>
+          <li class="navbar-item"><a href="#inicio">Início</a></li>
           <li class="navbar-item"><a href="#sobre">Sobre</a></li>
           <li class="navbar-item"><a href="#produtos">Produtos</a></li>
-          <li class="navbar-item"><a href="#">Páginas</a></li>
           <li class="navbar-item"><a href="#contato">Contato</a></li>
           <li class="navbar-item">
-            <button type="button" class="btn btn-primary bg-black fw-semibold">Saiba mais</button>
+            <a href="#sobre">
+              <button type="button" class="btn btn-primary bg-black fw-semibold">Saiba mais</button>
+            </a>
           </li>
         </ul>
       </div>
@@ -50,7 +51,9 @@
             </h1>
             <p>A Smellbook foi pensanda com muito carinho para proporcionar ao consumidor a experiência de ter uma caderneta ecológica e mostrar que podemos ter um item de qualidade, garantindo a segurança do meio ambiente.</p>
             <div class="d-flex gap-4">
-              <button type="button" class="btn btn-secondary shadow">Saiba mais</button>
+              <a href="#sobre">
+                <button type="button" class="btn btn-secondary shadow">Saiba mais</button>
+              </a>
               <button type="button" class="btn btn-outline-secondary shadow">Contato</button>
             </div>
           </div>
@@ -198,18 +201,18 @@
                     <h3>Siga-nos</h3>
                 </li>
                 <div id="footer-social-media">
-                    <a href="https://www.instagram.com/_smellbook/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" class="footer-link" id="instagram">
+                    <a href="https://www.instagram.com/_smellbook/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="footer-link" id="instagram">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
     
-                    <a href="#" class="footer-link" id="whatsapp">
+                    <a href="https://w.app/SMELLBOOK" target="_blank" class="footer-link" id="whatsapp">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
                 </div>
             </ul>
   
             <div id="footer-subscrib">
-                <h3>Contatos</h3>
+                <h3 id="contato">Contatos</h3>
   
                 <div class="contatos">
                   <div class="contato">
