@@ -66,6 +66,15 @@ nav li, nav button {
   padding: 80px;
 }
 
+#sobre .integrantes-smellbook {
+  width: 400px;
+  min-width: 250px;
+}
+
+.sobre-content {
+  gap: 80px;
+}
+
 #sobre .colunaimg {
   position: relative;
 }
@@ -227,6 +236,8 @@ margin-bottom: 2%;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 #text-sobre {
+  flex: 1;
+  min-width: min(400px, 100%);
   text-align: center;
  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
