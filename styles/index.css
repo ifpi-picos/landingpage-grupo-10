@@ -246,6 +246,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem 3.5rem;
+  gap: 2rem;
 }
 
 #footer-contacts img {
@@ -326,10 +327,26 @@ opacity: 0.8;
   padding: 0.9rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   #footer-content {
       grid-template-columns: repeat(2, 1fr);
-      gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  #footer-content,
+  #footer-content > div,
+  #footer-content .contatos,
+  #footer-content .contato,
+  .footer-list {
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #footer-content p {
+    text-align: center;
   }
 }
 
