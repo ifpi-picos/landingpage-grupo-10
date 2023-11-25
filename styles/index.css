@@ -193,9 +193,9 @@ nav li, nav button {
   text-align: center;
   font-size: 20px;
 }
-#carouselExample {
-  background-color: black;
-  max-width: 1200px;/* Defina a largura máxima conforme necessário */
+
+#carouselExample, #carouselExampleMobile {
+  max-width: 100%;/* Defina a largura máxima conforme necessário */
   margin: auto;
   margin-bottom: 100px;
   justify-content: center;
@@ -203,6 +203,11 @@ nav li, nav button {
   width: 900px;
   height: 200px;
 }
+
+#carouselExampleMobile {
+  max-width: 50%;
+}
+
 .carousel-control-next-icon {
   background-color: #c0c0c0; /* Substitua pela cor desejada */
 }
@@ -211,14 +216,9 @@ nav li, nav button {
   background-color: #c0c0c0;
 }
 
+.carousel-control-next,
 .carousel-control-prev {
-  top: 150px;
-  right: -40px;
-}
-
-.carousel-control-next {
-  top: 150px;
-  right: -20px;
+  margin: auto 0;
 }
 
 #caract-p {
@@ -227,7 +227,7 @@ nav li, nav button {
   justify-content: center;
   background-color: #ffffff;
   margin-top:250px;
-  width: 900px;
+  max-width: clamp(60%, 80%, 900px);
 }
 
 #text-titCar{
@@ -338,9 +338,31 @@ opacity: 0.8;
   padding: 0.9rem;
 }
 
+#carouselExampleMobile {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   #footer-content {
       grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #carouselExample {
+    display: none;
+  }
+
+  #carouselExampleMobile {
+    display: unset;
+  }
+
+  #carouselExampleMobile .carousel-inner {
+    padding: 10%;
+  }
+
+  #caract-p {
+    margin-top: 0;
   }
 }
 
