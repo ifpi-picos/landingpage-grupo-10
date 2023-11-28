@@ -364,6 +364,10 @@ opacity: 0.8;
   font-size: 0.9rem;
   padding: 0.9rem;
 }
+#footer-copyright a {
+  text-decoration: underline; /* Adiciona sublinhado ao texto do link */
+
+}
 
 #carouselExampleMobile {
   display: none;
