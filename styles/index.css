@@ -1,5 +1,6 @@
 :root {
   --integrantes-smellbook-largura: min(60vw, 400px);
+  --duracao-transicao-texto: 0.4s;
 }
 
 main {
@@ -30,7 +31,7 @@ nav li, nav button {
 
 .navbar-item,
 .navbar-item button {
-  transition: all 0.4s;
+  transition: all var(--duracao-transicao-texto);
 }
 
 .navbar-item:hover {
@@ -347,11 +348,29 @@ height: 250px;
   width: 2.5rem;
   color: rgb(255, 255, 255);
   border-radius: 50%;
-  transition: all 0.4s;
+  transition: all var(--duracao-transicao-texto);
 }
 
 #footer-social-media .footer-link:hover {
 opacity: 0.8;
+}
+
+#footer-social-media > a {
+  cursor: pointer;
+  width: min-content;
+}
+
+#footer-social-media > a p,
+#footer-social-media > a:hover p {
+  transition: all var(--duracao-transicao-texto);
+}
+
+#footer-social-media > a p {
+  border-bottom: 2px solid transparent;
+}
+
+#footer-social-media > a:hover p {
+  border-bottom-color: black;
 }
 
 #instagram {
@@ -371,7 +390,7 @@ opacity: 0.8;
 
 .footer-list .footer-link {
   color: rgb(31, 30, 30);
-  transition: all 0.4s;
+  transition: all var(--duracao-transicao-texto);
 }
 
 .footer-list .footer-link:hover {
@@ -406,7 +425,7 @@ opacity: 0.8;
   display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 890px) {
   #footer-content {
       grid-template-columns: repeat(1, 1fr);
       justify-items: center;
