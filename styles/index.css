@@ -29,8 +29,7 @@ nav li, nav button {
   border: none !important;
 }
 
-.navbar-item,
-.navbar-item button {
+.navbar-item, button {
   transition: all var(--duracao-transicao-texto);
 }
 
@@ -38,8 +37,8 @@ nav li, nav button {
   color: #fff;
 }
 
-.navbar-item:hover button {
-  color: var(--primaria);
+.sobre-button:hover {
+  color: var(--primaria) !important;
 }
 
 .smellbook .verao {
