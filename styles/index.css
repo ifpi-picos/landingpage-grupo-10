@@ -16,9 +16,14 @@ nav .brand, h1 {
   font-family: "Rowdies", sans-serif;
 }
 
+#inicio h1 {
+  font-size: clamp(1.5rem, 3.5vw, 4rem);
+}
+
 #inicio p {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: "Roboto", sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.2rem) !important;
 }
 
 nav li, nav button {
