@@ -206,6 +206,36 @@ nav li, nav button {
   padding-top: 100px;
 }
 
+#produtos .cards .card-estacao:hover {
+  outline: 1px solid;
+  cursor: default;
+}
+
+#produtos .cards .card-estacao > *,
+#produtos .cards .card-estacao:hover > * {
+  transition: .15s;
+}
+
+#produtos .cards .card-estacao:hover > * {
+  transform: scale(101.5%);
+}
+
+#produtos .cards .card-verao:hover {
+  outline-color: var(--verao);
+}
+
+#produtos .cards .card-outono:hover {
+  outline-color: var(--outono);
+}
+
+#produtos .cards .card-primavera:hover {
+  outline-color: var(--primavera);
+}
+
+#produtos .cards .card-inverno:hover {
+  outline-color: var(--inverno);
+}
+
 .Titulo-produtos {
   text-align: center;
 }
