@@ -1,3 +1,6 @@
+:root {
+  --integrantes-smellbook-largura: min(60vw, 400px);
+}
 
 main {
   height: 100% !important;
@@ -82,7 +85,7 @@ nav li, nav button {
 #sobre .integrantes-smellbook {
   width: 400px;
   height: 400px;
-  min-width: 250px;
+  min-width: var(--integrantes-smellbook-largura);
 }
 
 .sobre-content {
@@ -224,11 +227,11 @@ nav li, nav button {
 
 #carousel-integrantes,
 #carousel-integrantes .carousel-inner {
-  width: fit-content !important;
+  width: min-content !important;
 }
 
-#carousel-integrantes .carousel-inner {
-  padding: 0 80px;
+#carousel-integrantes .carousel-item {
+  padding: 0 calc(0.22 * var(--integrantes-smellbook-largura));
 }
 
 #carouselExampleMobile {
@@ -396,10 +399,14 @@ opacity: 0.8;
   }
 }
 
+@media screen and (max-width: 350px) {
+  #carousel-integrantes .carousel-item {
+    padding: 0 calc(0.18 * var(--integrantes-smellbook-largura));
+  }
+}
+
 @media screen and (max-width: 755px) {
   #sobre .carousel-item img {
-    min-width: 50px;
-    min-height: 50px;
     width: 100%;
     height: 100%;
   }
