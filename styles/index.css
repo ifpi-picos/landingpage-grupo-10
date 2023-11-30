@@ -260,6 +260,23 @@ nav li, nav button {
   height: 200px;
 }
 
+.carousel-caption {
+  container-type: size;
+  background: #000000aa;
+  height: 35%;
+  padding: 5px !important;
+  bottom: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important
+}
+
+.carousel-caption p, .carousel-caption b {
+  font-size: min(100%, 16cqmin);
+}
+
 #carousel-integrantes,
 #carousel-integrantes .carousel-inner {
   width: min-content !important;
